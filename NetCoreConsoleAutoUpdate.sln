@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32210.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E207920A-74CF-4BC8-A31E-744A8165D409}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreConsoleAutoUpdate.WpfApp", "NetCoreConsoleAutoUpdate.WpfApp\NetCoreConsoleAutoUpdate.WpfApp.csproj", "{2F62C9FD-958B-41E8-847E-8D80DBCB4762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreConsoleAutoUpdate.WebAPI", "NetCoreConsoleAutoUpdate.WebAPI\NetCoreConsoleAutoUpdate.WebAPI.csproj", "{AD616EBD-F88F-45EA-8503-AA620DE8246C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F62C9FD-958B-41E8-847E-8D80DBCB4762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F62C9FD-958B-41E8-847E-8D80DBCB4762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F62C9FD-958B-41E8-847E-8D80DBCB4762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F62C9FD-958B-41E8-847E-8D80DBCB4762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD616EBD-F88F-45EA-8503-AA620DE8246C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD616EBD-F88F-45EA-8503-AA620DE8246C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD616EBD-F88F-45EA-8503-AA620DE8246C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD616EBD-F88F-45EA-8503-AA620DE8246C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3FFE809-CFC7-47A3-861C-097CE55D64B1}
+	EndGlobalSection
+EndGlobal
